@@ -14,8 +14,8 @@ html, body { height: 100%; }
 
 body {
     background-color: #fff;
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-family: Georgia, sans-serif;
     text-align: center;
 }
 
@@ -78,8 +78,11 @@ ul.posts span {
 }
 
 .site .header {
-    text-align: center;
+    text-align: right;
     padding-top: 5px;
+    font-size: 34px;
+    letter-spacing: -1px;
+    font-family: Helvetica, Arial;
 }
 
 
@@ -91,6 +94,7 @@ ul.posts span {
 .site .header h1.title {
     display: inline-block;
     margin-bottom: 2em;
+    text-decoration: underline;
 }
 
 .site .header h1.title a {
@@ -115,7 +119,9 @@ ul.posts span {
 }
 
 .site .footer {
-    font-size: 80%;
+    width: 50%;
+    height: 80px;
+    font-size: 50%;
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;

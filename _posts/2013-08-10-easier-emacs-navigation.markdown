@@ -6,6 +6,9 @@ comments: true
 categories: emacs
 ---
 
+**EDIT 2** I moved to using [smartparens](https://github.com/Fuco1/smartparens/wiki/Working-with-expressions) for navigation - in most cases it does exactly
+what I need.
+
 **EDIT** Since trying this experiment I reverted to old behaviour fot C-n and C-p.
 Moving by 5 lines was just to much in most cases, but I still keep it around
 as C-S-n and C-S-p and I use it all the time.
