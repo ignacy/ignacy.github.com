@@ -13,8 +13,8 @@
 html, body { height: 100%; }
 
 body {
-    background-color: #fff;
-    font-size: 22px;
+    background-color: #FFFFFF;
+    font-size: 110%;
     font-family: Georgia, sans-serif;
     text-align: center;
 }
@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #0000FF; }
-a:hover   { color: #0033CC; }
-a:visited { color: #000099;  }
+a         { color: #6DBCDB; }
+a:hover   { color: #3F5765; }
+a:visited { color: #202D44;  }
 
 table {
     font-size: inherit;
@@ -69,19 +69,26 @@ ul.posts span {
   /*
   /*****************************************************************************/
 
+
+.container {
+    width: 800px;
+    max-width: 90%;
+    margin: 3em auto 2em;
+}
+
 .site {
     font-size: 115%;
     text-align: justify;
-    width: 42em;
-    margin: 3em auto 2em;
     line-height: 1.5em;
 }
 
 .site .header {
     text-align: right;
     padding-top: 5px;
-    font-size: 34px;
-    letter-spacing: -1px;
+    font-size: 150%;
+    color: #FC4349;
+    lein-height: 2em;
+    letter-spacing: 2px;
     font-family: Helvetica, Arial;
 }
 
@@ -94,7 +101,6 @@ ul.posts span {
 .site .header h1.title {
     display: inline-block;
     margin-bottom: 2em;
-    text-decoration: underline;
 }
 
 .site .header h1.title a {
@@ -134,7 +140,7 @@ ul.posts span {
 }
 
 .site .footer .contact a {
-    color: #8085C1;
+    color: #3F5765;
 }
 
 .site .footer .rss {
