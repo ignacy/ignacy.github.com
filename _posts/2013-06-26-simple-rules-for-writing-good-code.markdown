@@ -14,7 +14,7 @@ post have been written about it.
 I don't want to focus on any of the methodologies in this post - what
 I want to do instead is to highlight the fact that although most of the
 rules that have been accepted in recent years are correct and lead to
-better code, ther are not ment to be followed in every situation.
+better code, they are not meant to be followed in every situation.
 In fact I'd judge that following them in 80 to 90% cases is more then enough.
 
 If the above statement is true it means that there's up to 1 in 5
@@ -44,7 +44,7 @@ in the future)
   the scope/complexity grows
 
 What that all means is that when you think about code quality - you
-should focus about tradeoffs.
+should focus about trade offs.
 
 ### Given a sufficient (unlimited) amount of time, how far would you go with your code?
 
@@ -64,7 +64,7 @@ time refactoring and making it simpler. But I try to delay using
 ### Comparing Apples and Oranges
 
 I will not spend much time here giving examples of what I'm talking
-about - beacause I want to convey a more general thought and not a
+about - because I want to convey a more general thought and not a
 solution to particular problem - but still I will give you one simple
 case, where I think delaying best practices is a good thing.
 
