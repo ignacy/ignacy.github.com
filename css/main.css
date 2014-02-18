@@ -89,7 +89,7 @@ ul.posts span {
     text-align: right;
     padding-top: 5px;
     margin-bottom: 40px;
-    font-size: 150%;
+    font-size: 130%;
     lein-height: 2em;
     font-family: Helvetica, Arial;
 }
@@ -153,6 +153,25 @@ ul.posts span {
     border: 0;
 }
 
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
 /*****************************************************************************/
 /*
 /* Posts
